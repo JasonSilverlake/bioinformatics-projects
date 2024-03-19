@@ -37,7 +37,7 @@ from Bio import SeqIO
 import os
 
 input_dir = 'path/to/input/directory'
-output_file = 'combined_sequences.fasta'
+output_file = 'example_combined_sequences.fasta'
 
 with open(output_file, 'w') as outfile:
     for filename in os.listdir(input_dir):
